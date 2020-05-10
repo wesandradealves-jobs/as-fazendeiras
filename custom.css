@@ -1,0 +1,135 @@
+.topbarmenu li > a.dropdown-toggle:after {
+	display: none
+}
+#nav-main ul.sf-menu a {
+	font-size: 12px
+}
+.topbarmenu ul li {
+	margin-right: 5px
+}
+.video {
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.video > *{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.galeria .vc_pageable-slide-wrapper.vc_clearfix {
+    display: flex;
+    flex-flow: row wrap;	
+}
+.galeria .vc_grid-item {
+    flex: 0 0 33.333%;
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
+}
+.wrap.maincontent {
+	background-color: white
+}
+.navcenter {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;	
+}
+#up_topbar[class*="shrink"] .container .row {
+    display: flex;
+}
+.search_menu {
+	order: 2;
+}
+body:not(.home) {
+	padding-top: 264px;
+}
+body.quem-sao-as-fazendeiras {
+	background: #474747
+}
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1447152576654,
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1415877943066,
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1419510745496 {
+	background-color: whitesmoke
+}
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1448459601371,
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1448459579333{
+	background-color: #222222 !important;
+	padding-bottom: 45px;
+}
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1448527800079 h2,
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1447152576654 h2 {
+	padding-bottom: 60px;
+}
+body:not(.home) .normal.light .topclass {
+	background: black!important
+}
+.vc_custom_1448280705221 .up-button {
+	margin: 30px auto 0;
+	display: block;
+	max-width: 140px;
+	text-align: center;
+	height: auto;
+	line-height: 3;
+	padding: 0;
+	min-height: initial;	
+}
+.logo {
+	filter: grayscale(1) brightness(5);
+}
+
+header .logo {
+	max-width: 140px;
+}
+.footercopy .logo {
+	max-width: 190px;
+}
+#up_topbar[class*="shrink"] .logo {
+	max-width: 115px;
+	top: 8px;
+	position: relative
+}
+.topclass.topclass-shrink #logo #uplogo img {
+	margin-top: 0
+}
+.eventos {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.eventos .logo {
+	filter: none;
+}
+.portfolio .text-category {
+    display: block;
+    font-size: 12px;
+    padding: 0 30px;
+}
+.thumbnail-time {
+	display: block;
+	padding: 0 0 100%;
+}
+.vc_single_image-wrapper.vc_box_border_grey.time-interna-holder {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding: 0 0 100%;
+	border-radius: 999px;
+}
+.vc_single_image-wrapper.vc_box_border_grey.time-interna-holder  img {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	object-fit: cover;
+}
+body.page-id-458:not(.home) {
+    padding-top: 254px;
+}
